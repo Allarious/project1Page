@@ -1,0 +1,15 @@
+
+.student{
+    width: 350px;
+    margin: 4% auto;
+    position: relative;
+    margin-bottom: 0;
+}
+.srvc_icon{
+    width: 29px;
+    position: absolute;
+}
+.openBookIcon{
+    top: 20%;
+    right: 0;
+}
