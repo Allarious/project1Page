@@ -144,10 +144,10 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
-.download-section {
+.robot-section {
   color: #394A52;
   background-color: #e1edf4;
   -webkit-background-size: cover;
@@ -161,8 +161,9 @@ a {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px; }
+    /*padding-top: 200px;*/
+    /*padding-bottom: 200px; */
+  }
   #map {
     height: 350px; } }
 
@@ -197,6 +198,13 @@ ul.banner-social-buttons {
       padding: 0; }
       ul.banner-social-buttons li:last-child {
         margin-bottom: 0; } }
+  @media  (max-width: 379px){
+
+    .student{
+      width: auto;
+    }
+
+  }
 
 footer {
   font-family: 'Lora', sans-serif;
@@ -225,15 +233,6 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
-
-#down-arrow{
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;;
-    animation-iteration-count: infinite;
-    color: #e1edf4;
-}
 .active{
   border-radius: 5px;
 }
@@ -250,51 +249,108 @@ body {
   margin: 5px;
   padding: 30px;
 }
+.why-pictures{
+
+}
 .why-sentences{
 
-}
-.why-picture{
+  text-align: center;
+  font-size: 23px;
 
 }
-#first-why-picture{
-  height: 50px;
-  background: url("../images/icon-stopwatch.png") no-repeat bottom center scroll;
+.why-sentences span{
+  vertical-align: middle;
 }
-#second-why-picture{
-  height: 50px;
-  background: url("../images/icon-inscription.png") no-repeat bottom center scroll;
+.colored-text{
+  color: #0ca1b2;
 }
-#third-why-picture{
-  height: 50px;
-  background: url("../images/icon-stopwatch.png") no-repeat bottom center scroll;
+.margin-row{
+  margin: 20px 0 20px 0;
+}
+.robot-picture{
+  width: auto;
+  height: 70%;
+  background-color: #09808E;
+  border-radius: 10px;
+}
+.child-text{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+.robot-pic-text{
+  background-color: #e1edf4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#about{
+  line-height: 140px;
+}
+#contact-us-content{
+  text-align: right;
 }
 #why1{
 
+  text-align: center;
+  
 }
 #why2{
   background: url("../images/icon-stopwatch.png") no-repeat bottom center scroll;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 #why3{
   background: url("../images/icon-inscription.png") no-repeat bottom center scroll;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 #why4{
+
+  text-align: center;
 
 }
 #why5{
 
+  text-align: center;
+
 }
 #why6{
-  background: url("../images/icon-box.png");
+  background: url("../images/icon-box.png") no-repeat bottom center scroll;
   background-size: contain;
-  background-repeat: no-repeat;
+}
+
+#first-robot-text{
+  height: 300px;
+}
+#second-robot-text{
+  padding-top: 100% ;
+  width: 100%;
+  height: 300px;
+}
+#third-robot-text{
+  height: 300px;
+}
+#android-telegram-pic{
+  background-color: black;
+  height: 300px;
+  background: url("../images/android-telegram-bot.png") no-repeat bottom center scroll;
+  margin-top: 100px;
+  transform: rotate(15deg);
+}
+#robot{
+  padding-top: 50px;
+  overflow: hidden;
+  height:450px;
 }
 
 
 
+#down-arrow{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #e1edf4;
+}
 
 @-webkit-keyframes example {
     0%   {margin-top: 10px;}
